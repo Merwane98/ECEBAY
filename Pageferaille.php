@@ -300,7 +300,7 @@
        </div>
 
 <?php
-              $mysqli = new mysqli('localhost', 'root', '', 'eceamazon');
+              $mysqli = new mysqli('localhost', 'root', '', 'ecebay');
               $mysqli->set_charset("utf8");
               $requete = 'SELECT * FROM Article WHERE Type LIKE "Féraille%" ';
               $resultat = $mysqli->query($requete);

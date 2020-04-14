@@ -2,7 +2,7 @@
 <html>
 <head>
        <meta charset="utf-8">
-       <title>ECE PROMOTIONS</title>
+       <title>ECEBAY PROMOTIONS</title>
        <style type="text/css">
                             #menuderoulant, #menuderoulant ul{
               padding:0px;
@@ -295,7 +295,7 @@
 </div>
 </p>
 <?php
-              $mysqli = new mysqli('localhost', 'root', '', 'eceamazon');
+              $mysqli = new mysqli('localhost', 'root', '', 'ecebay');
               $mysqli->set_charset("utf8");
               $requete = 'SELECT * FROM Article WHERE Type LIKE "%SV" ';
               $resultat = $mysqli->query($requete);

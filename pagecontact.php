@@ -2,7 +2,7 @@
 <html>
 <head>
        <meta charset="utf-8">
-       <title>ECE EBAY</title>
+       <title>ECEBAY</title>
        <style type="text/css">
                             #menuderoulant, #menuderoulant ul{
               padding:0px;

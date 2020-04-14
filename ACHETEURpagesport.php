@@ -238,7 +238,7 @@ session_start();
                <div id="categoriegauche">    
 <?php
        $mail=$_SESSION['a'];
-       $mysqli = new mysqli('localhost', 'root', '', 'eceamazon');
+       $mysqli = new mysqli('localhost', 'root', '', 'ecebay');
        $mysqli->set_charset("utf8");
        $requete = "SELECT * FROM Acheteur WHERE AdresseMail =  '$mail' ";
        $resultat = $mysqli->query($requete);              
@@ -302,7 +302,7 @@ session_start();
 
 
 <?php
-              $mysqli = new mysqli('localhost', 'root', '', 'eceamazon');
+              $mysqli = new mysqli('localhost', 'root', '', 'ecebay');
               $mysqli->set_charset("utf8");
               $requete = 'SELECT * FROM Article WHERE Type LIKE "sportloisir%" ';
               $resultat = $mysqli->query($requete);

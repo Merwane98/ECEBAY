@@ -238,7 +238,7 @@ session_start();
                <div id="categoriegauche"> 
 <?php
        $mail=$_SESSION['a'];
-       $mysqli = new mysqli('localhost', 'root', '', 'eceamazon');
+       $mysqli = new mysqli('localhost', 'root', '', 'ecebay');
        $mysqli->set_charset("utf8");
        $requete = "SELECT * FROM Acheteur WHERE AdresseMail =  '$mail' ";
        $resultat = $mysqli->query($requete);              
@@ -312,7 +312,7 @@ session_start();
 <embed src="http://www.pageplugins.com/generators/santahat/santahat.swf" FlashVars="hatname=ECEBAY&dom" quality="high" wmode="transparent" width="360" height="340" name="Santa Hat" align="middle" allowScriptAccess="samedomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /></embed>
 </div>
 <?php
-              $mysqli = new mysqli('localhost', 'root', '', 'eceamazon');
+              $mysqli = new mysqli('localhost', 'root', '', 'ecebay');
               $mysqli->set_charset("utf8");
               $requete = 'SELECT * FROM Article WHERE Type LIKE "%N" ';
               $resultat = $mysqli->query($requete);

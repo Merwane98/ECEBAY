@@ -9,7 +9,7 @@ session_start();
     $mdp1 = isset($_POST["mdp1"])?$_POST["mdp1"] : "";
     $typeclient = isset($_POST["typeclient"])?$_POST["typeclient"] : "";
  	$erreur = "";
- 	$database = "eceamazon";
+ 	$database = "ecebay";
 	$_SESSION['a'] = $mail1;
     			
  	$db_handle = mysqli_connect('localhost', 'root', '');

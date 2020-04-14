@@ -5,7 +5,7 @@ session_start();
 <html>
 <head>
        <meta charset="utf-8">
-       <title>ECE AMAZON</title>
+       <title>ECEBAY</title>
        <style type="text/css">
                             #menuderoulant, #menuderoulant ul{
               padding:0px;
@@ -238,7 +238,7 @@ session_start();
                                    }
 <?php
        $mail=$_SESSION['a'];
-       $mysqli = new mysqli('localhost', 'root', '', 'eceamazon');
+       $mysqli = new mysqli('localhost', 'root', '', 'ecebay');
        $mysqli->set_charset("utf8");
        $requete = "SELECT * FROM Vendeur WHERE AdresseMail =  '$mail' ";
        $resultat = $mysqli->query($requete);              
@@ -260,7 +260,7 @@ session_start();
                <img class="logocentre" src="titresite1.png" alt="titre" width="400" height="100">
  <?php
        $mail=$_SESSION['a'];
-       $mysqli = new mysqli('localhost', 'root', '', 'eceamazon');
+       $mysqli = new mysqli('localhost', 'root', '', 'ecebay');
        $mysqli->set_charset("utf8");
        $requete = "SELECT * FROM Vendeur WHERE AdresseMail =  '$mail' ";
        $resultat = $mysqli->query($requete);              
@@ -317,7 +317,7 @@ session_start();
 <h2>Voici la liste de VOS annonces, vous pouvez les supprimer en cliquant sur "Supprimer" près de chaque annonce. </h2>
 <?php
               $mail=$_SESSION['a'];
-              $mysqli = new mysqli('localhost', 'root', '', 'eceamazon');
+              $mysqli = new mysqli('localhost', 'root', '', 'ecebay');
               $mysqli->set_charset("utf8");
               $requete = "SELECT * FROM Article WHERE Vendeur = '$mail' ";
               $resultat = $mysqli->query($requete);

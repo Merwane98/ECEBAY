@@ -17,7 +17,7 @@
     if ($erreur == "") {
         echo '<td><img src="titresite.png" width="400" height="70">'; echo "<p><b>Votre annonce concernant le/la ".$Type." ".$Titre." est en ligne.<br>Bonne vente !</b></p>";echo '<td><a href="ECE_AMAZON.html"><img src="retour.png" width="150" height="150" border="10"> </a></td>';
 
-            $mysqli = new mysqli('localhost', 'root', '', 'eceamazon');
+            $mysqli = new mysqli('localhost', 'root', '', 'ecebay');
             $mysqli->set_charset("utf8");
             $requete = "INSERT INTO Article VALUES ('.$Type.', '.$Titre.', '.$Description.', '.$Quantite.', '.$Prix.', '.$Vendeur.')";
             $resultat = $mysqli->query($requete);

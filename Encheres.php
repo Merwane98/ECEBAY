@@ -262,7 +262,7 @@
                <div id="categoriegauche">    
 <?php
        $mail=$_SESSION['a'];
-       $mysqli = new mysqli('localhost', 'root', '', 'eceamazon');
+       $mysqli = new mysqli('localhost', 'root', '', 'ecebay');
        $mysqli->set_charset("utf8");
        $requete = "SELECT * FROM Acheteur WHERE AdresseMail =  '$mail' ";
        $resultat = $mysqli->query($requete);              
@@ -334,7 +334,7 @@
 
 
        <?php
-              $mysqli = new mysqli('localhost', 'root', '', 'eceamazon');
+              $mysqli = new mysqli('localhost', 'root', '', 'ecebay');
               $mysqli->set_charset("utf8");
               $requete = 'SELECT * FROM Article WHERE Mode1 LIKE "E%" ';
               $resultat = $mysqli->query($requete);              

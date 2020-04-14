@@ -227,7 +227,7 @@ session_start();
                                    }
                                    <?php
        $mail=$_SESSION['a'];
-       $mysqli = new mysqli('localhost', 'root', '', 'eceamazon');
+       $mysqli = new mysqli('localhost', 'root', '', 'ecebay');
        $mysqli->set_charset("utf8");
        $requete = "SELECT * FROM Vendeur WHERE AdresseMail =  '$mail' ";
        $resultat = $mysqli->query($requete);              
@@ -248,7 +248,7 @@ session_start();
                <img class="logocentre" src="titresite1.png" alt="titre" width="400" height="100">
                <?php
        $mail=$_SESSION['a'];
-       $mysqli = new mysqli('localhost', 'root', '', 'eceamazon');
+       $mysqli = new mysqli('localhost', 'root', '', 'ecebay');
        $mysqli->set_charset("utf8");
        $requete = "SELECT * FROM Vendeur WHERE AdresseMail =  '$mail' ";
        $resultat = $mysqli->query($requete);              

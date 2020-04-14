@@ -26,7 +26,7 @@
  echo "Erreur : $erreur";
  }
  // on se connecte à notre base
-    $mysqli = new mysqli('localhost', 'root', '', 'eceamazon');
+    $mysqli = new mysqli('localhost', 'root', '', 'ecebay');
      $mysqli->set_charset("utf8");
 
 // lancement de la requete
