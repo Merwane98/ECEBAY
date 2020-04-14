@@ -5,7 +5,7 @@ session_start();
 <html>
 <head>
        <meta charset="utf-8">
-       <title>ECE AMAZON</title>
+       <title>ECE EBAY</title>
        <style type="text/css">
                             #menuderoulant, #menuderoulant ul{
               padding:0px;
