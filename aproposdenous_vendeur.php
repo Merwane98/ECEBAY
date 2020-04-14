@@ -302,7 +302,7 @@ session_start();
        </div>
 
 <center><h1>A propos de Nous</h1><br></center>
-      <h3> Le site ECE EBAY a été mis en place par 3 élève de l'Ecole Centrale d'Électronique de Paris. Il s'agit d'un site d'E-commerce qui va révolutionner le monde du e-commerce. Avec son interface aérée, qui offre un aspect premium, les ingénieures ont fait tout pour que les utilisateurs se sentent le mieux possibles. Avec ECE EBAY, tout devient possible ! </h3>
+      <h3> Le site ECE EBAY a été mis en place par 2 élèves de l'Ecole Centrale d'Électronique de Paris. Il s'agit d'un site d'E-commerce qui va révolutionner le monde du e-commerce. Avec son interface aérée, qui offre un aspect premium, les ingénieures ont fait tout pour que les utilisateurs se sentent le mieux possibles. Avec ECE EBAY, tout devient possible ! </h3>
 
  <div id="bandeacceuil">
        <h1>FONDATEUR D' ECE EBAY</h1>
