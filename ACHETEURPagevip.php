@@ -335,7 +335,7 @@ session_start();
 <?php
               $mysqli = new mysqli('localhost', 'root', '', 'eceamazon');
               $mysqli->set_charset("utf8");
-              $requete = 'SELECT * FROM Article WHERE Type LIKE "vetement%" ';
+              $requete = 'SELECT * FROM Article WHERE Type LIKE "Accessoire%" ';
               $resultat = $mysqli->query($requete);
               while ($ligne = $resultat->fetch_assoc()) {
 
@@ -354,6 +354,7 @@ session_start();
                      
                             <tr>
                                    <td><h2><?php echo $ligne['Titre']?></h2><br></td>
+                                   <td><u>Mode de vente :</u> <?php echo $ligne['Mode1']?> <?php echo $ligne['Mode2']?> <?php echo $ligne['Mode3']?><br></td>
                                    <td><u>Description</u> :<?php echo $ligne['Description']?><br></td>
                                    <td><small>Quantité : <?php echo $ligne['Quantité']?></small><br></td>
                                    <td><b>Prix : <?php echo $ligne['Prix']?> €</b><br></td>
