@@ -302,7 +302,7 @@
 <?php
               $mysqli = new mysqli('localhost', 'root', '', 'eceamazon');
               $mysqli->set_charset("utf8");
-              $requete = 'SELECT * FROM Article WHERE Type LIKE "musique%" ';
+              $requete = 'SELECT * FROM Article WHERE Type LIKE "Bon%" ';
               $resultat = $mysqli->query($requete);
               while ($ligne = $resultat->fetch_assoc()) {
 
