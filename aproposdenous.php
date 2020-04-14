@@ -39,25 +39,25 @@
               }
               /* background des liens menus */
               #menuderoulant li:first-child{
-              background-color: #F9980C;
+              background-color: red;
               }
               #menuderoulant li:nth-child(2){
-              background-color: #F9980C;
+              background-color: blue;
               }
               /* background des liens sous menus */
               #menuderoulant li:first-child li{
-              background:#F9980C;
+              background:red;
               }
               #menuderoulant li:nth-child(2) li{
-              background:#F9980C;
+              background:blue;
               }
               
               /* background des liens menus et sous menus au survol */
               #menuderoulant li:first-child:hover, #menuderoulant li:first-child li:hover{
-              background:#F9980C;
+              background:red;
               }
               #menuderoulant li:nth-child(2):hover, #menuderoulant li:nth-child(2) li:hover{
-              background:#F9980C;
+              background:blue;
               }
               
               /* les a href */
@@ -112,25 +112,25 @@
               }
               /* background des liens menus */
               #menuderoulantdroit li:first-child{
-              background-color: #F9980C;
+              background-color: #ffcc33;
               }
               #menuderoulantdroit li:nth-child(2){
-              background-color: #F9980C;
+              background-color: green;
               }
               /* background des liens sous menus */
               #menuderoulantdroit li:first-child li{
-              background:#F9980C;
+              background:#ffcc33;
               }
               #menuderoulantdroit li:nth-child(2) li{
-              background:#F9980C;
+              background:green;
               }
               
               /* background des liens menus et sous menus au survol */
               #menuderoulantdroit li:first-child:hover, #menuderoulantdroit li:first-child li:hover{
-              background:#F9980C;
+              background:#ffcc33;
               }
               #menuderoulantdroit li:nth-child(2):hover, #menuderoulantdroit li:nth-child(2) li:hover{
-              background:#F9980C;
+              background:green;
               }
               
               /* les a href */
@@ -167,7 +167,7 @@
                      } 
               #bande{
                      line-height: 30px;
-                     background-color: #F9980C;
+                     background-color: black;
                      height: 2px;
                      width: auto;
                      float: center;
@@ -190,7 +190,7 @@
                      height: 300px;
                      } 
               #footer{
-                     background-color: #F9980C;
+                     background-color: black;
                      color: white;
                      clear: both;
                      text-align: center;
@@ -228,7 +228,7 @@
 <body>
        <div id="header">
               <a href="formulaireadmin.php"><img class="logogauche" src="logoadmin.png" alt="logosite" width="50" height="50">
-               <img class="logocentre" src="titresite.png" alt="titre" width="400" height="70">
+               <img class="logocentre" src="titresite1.png" alt="titre" width="500" height="100">
                <a href="PageAccueil.php"><img class="logodroite" src="retour.png" alt="retour" width="50" height="50"></a>
        </div>
        
@@ -238,10 +238,9 @@
        <ul id="menuderoulant">
        <li><a href="#">CATEGORIES</a>
               <ul>
-                     <li><a href="PageLivre.php">Livres</a></li>
-                     <li><a href="pagemusique.php">Musique</a></li>
-                     <li><a href="pagevetement.php">Vêtements</a></li>
-                     <li><a href="pagesport.php">Sports et Loisir</a></li>
+                     <li><a href="Pageferaille.php">Féraille ou Trésor</a></li>
+                     <li><a href="Pagemusee.php">Bon pour le Musée</a></li>
+                     <li><a href="Pagevip.php">Accessoire VIP</a></li>
               </ul>
        </li>
        <li><a href="#">PROMOTIONS</a>
