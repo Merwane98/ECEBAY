@@ -256,10 +256,10 @@
 <body>
        <div id="header">
               
-               <img class="logocentre" src="logolivre.png" alt="titre" width="400" height="70">
-               <a href="PageAccueil.php"><img class="logodroite" src="logodeconnexion.png" alt="retour" width="50" height="50"></a>
-               <a href="ACHETEURpannier.php"><img class="logodroite" src="panier.png" alt="titre" width="50" height="50"></a>
-               <div id="categoriegauche">    
+               <img class="logocentre" src="logoachetez-lemaintenant.png" alt="titre" width="500" height="100">
+               <a href="PageAccueil.php"><img class="logodroite" src="logodeconnexion1.png" alt="retour" width="70" height="70"></a>
+               <a href="ACHETEURpannier.php"><img class="logodroite" src="panier.png" alt="titre" width="70" height="70"></a>
+               <div id="categoriegauche">   
 <?php
        $mail=$_SESSION['a'];
        $mysqli = new mysqli('localhost', 'root', '', 'eceamazon');
@@ -288,10 +288,9 @@
        <ul id="menuderoulant">
        <li><a href="#">CATEGORIES</a>
               <ul>
-                     <li><a href="ACHETEURPageLivre.php">Livres</a></li>
-                     <li><a href="ACHETEURpagemusique.php">Musique</a></li>
-                     <li><a href="ACHETEURpagevetement.php">Vêtements</a></li>
-                     <li><a href="ACHETEURpagesport.php">Sports et Loisir</a></li>
+                     <li><a href="ACHETEURPageferaille.php">Ferraille ou Trésor</a></li>
+                     <li><a href="ACHETEURPagemusee.php">Bon pour le Musée</a></li>
+                     <li><a href="ACHETEURPagevip.php">Accessoire VIP</a></li>
               </ul>
        </li>
        <li><a href="#">PROMOTIONS</a>
@@ -300,6 +299,15 @@
                      <li><a href="ACHETEURpagesaintvalentin.php">Saint Valentin</a></li>
                      <li><a href="ACHETEURpagenoel.php">Noël</a></li>
                      <li><a href="ACHETEURpageperemere.php">Fête des pères/mères</a></li>
+              </ul>
+
+       </li>
+        <li>
+       <a href="#">Achat</a>
+              <ul>
+                     <li><a href="Encheres.php">Enchères</a></li>
+                     <li><a href="Achetez.php">Achetez-le maintenant</a></li>
+                     <li><a href="MOffre.php">Meilleure offre</a></li>
               </ul>
 
        </li>
@@ -329,7 +337,7 @@
        <?php
               $mysqli = new mysqli('localhost', 'root', '', 'eceamazon');
               $mysqli->set_charset("utf8");
-              $requete = 'SELECT * FROM Article WHERE Type LIKE "livre%" ';
+              $requete = 'SELECT * FROM Article WHERE Mode2 LIKE "A%" ';
               $resultat = $mysqli->query($requete);              
               while ($ligne = $resultat->fetch_assoc()) {  
 
@@ -343,6 +351,7 @@
                             
                             <tr>
                                    <td><h2><?php echo $ligne['Titre']?></h2><br></td>
+                                   <td><u>Mode de vente :</u> <?php echo $ligne['Mode1']?> <?php echo $ligne['Mode2']?> <?php echo $ligne['Mode3']?><br></td>
                                    <td><u>Description</u> :<?php echo $ligne['Description']?><br></td>
                                    <td><small>Quantité : <?php echo $ligne['Quantité']?></small><br></td>
                                    <td><b>Prix : <?php echo $ligne['Prix']?> €</b><br></td>
@@ -367,7 +376,7 @@
 
              
        <div id="footer">
-              Droit d'auteur | Copyright &copy; 2020, BR.Merwane & S.Louis-Henri
+                Droit d'auteur | Copyright &copy; 2020, BR.Merwane & S.Louis-henri
        </div>
 </body>
 </html>

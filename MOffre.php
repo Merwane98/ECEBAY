@@ -5,9 +5,9 @@
 <html>
 <head>
        <meta charset="utf-8">
-       <title>ECE LIVRES</title>
+       <title>ECEBAY ACHETEZ</title>
        <style type="text/css">
-                            #menuderoulant, #menuderoulant ul{
+              #menuderoulant, #menuderoulant ul{
               padding:0px;
               margin:0px;
               list-style:none;
@@ -24,17 +24,6 @@
               text-align:center;
 
               }
-              #bandearticle{
-                     background-color: grey;
-                     color: black;
-                     clear: both;
-                     text-align: left;
-                     padding: 10px;
-                     }
-#articlegauche {
-                      float: left;
-                     padding-right: 30px;
-                     }      
               
               #menuderoulant ul{
               position:absolute;
@@ -52,25 +41,34 @@
               }
               /* background des liens menus */
               #menuderoulant li:first-child{
-              background-color: #F9980C;
+              background-color: red;
               }
               #menuderoulant li:nth-child(2){
-              background-color: #F9980C;
+              background-color: blue;
+              }
+              #menuderoulant li:nth-child(3){
+              background-color: #ffcc33;
               }
               /* background des liens sous menus */
               #menuderoulant li:first-child li{
-              background:#F9980C;
+              background: red;
               }
               #menuderoulant li:nth-child(2) li{
-              background:#F9980C;
+              background: blue;
+              }
+              #menuderoulant li:nth-child(3) li{
+              background: #ffcc33;
               }
               
               /* background des liens menus et sous menus au survol */
               #menuderoulant li:first-child:hover, #menuderoulant li:first-child li:hover{
-              background:#F9980C;
+              background: red;
               }
               #menuderoulant li:nth-child(2):hover, #menuderoulant li:nth-child(2) li:hover{
-              background:#F9980C;
+              background: blue;
+              }
+               #menuderoulant li:nth-child(3):hover, #menuderoulant li:nth-child(3) li:hover{
+              background: #ffcc33;
               }
               
               /* les a href */
@@ -125,25 +123,25 @@
               }
               /* background des liens menus */
               #menuderoulantdroit li:first-child{
-              background-color: #F9980C;
+              background-color: #ffcc33;
               }
               #menuderoulantdroit li:nth-child(2){
-              background-color: #F9980C;
+              background-color: green;
               }
               /* background des liens sous menus */
               #menuderoulantdroit li:first-child li{
-              background:#F9980C;
+              background: #ffcc33;
               }
               #menuderoulantdroit li:nth-child(2) li{
-              background:#F9980C;
+              background:green;
               }
               
               /* background des liens menus et sous menus au survol */
               #menuderoulantdroit li:first-child:hover, #menuderoulantdroit li:first-child li:hover{
-              background:#F9980C;
+              background:#ffcc33;
               }
               #menuderoulantdroit li:nth-child(2):hover, #menuderoulantdroit li:nth-child(2) li:hover{
-              background:#F9980C;
+              background:green;
               }
               
               /* les a href */
@@ -158,11 +156,11 @@
               padding:8px 0;
               }
               #menuderoulantdroit li:hover li a{
-              color:#fff;
+              color: #fff;
               text-transform:inherit;
               }
               #menuderoulantdroit li:hover a, #menuderoulantdroit li li:hover a{
-              color:#000;
+              color: #000;
               }
               #header{
                      background-color: white;
@@ -180,8 +178,16 @@
                      } 
               #bande{
                      line-height: 30px;
-                     background-color: #F9980C;
+                     background-color: black;
                      height: 2px;
+                     width: auto;
+                     float: center;
+                     padding: 5px;
+                     }
+              #bandegrise{
+                     line-height: 30px;
+                     background-color: grey;
+                     height: 6px;
                      width: auto;
                      float: center;
                      padding: 5px;
@@ -200,6 +206,20 @@
                      text-align: center;
                      padding: 10px;
                      }
+               #bandearticle{
+                     background-color: grey;
+                     color: black;
+                     clear: both;
+                     text-align: left;
+                     padding: 10px;
+                     }
+              #couleurtitre{
+                     background-color: grey;
+                     color:#F9980C;
+                     clear: both;
+                     text-align: left;
+                     padding: 10px;
+                     }
               #categoriegauche{
                      background-color: white;
                      color: grey;
@@ -212,6 +232,10 @@
                      text-align: right;
                      padding: 5px;
                      } 
+              #articlegauche {
+                      float: left;
+                     padding-right: 30px;
+                     }      
               .logogauche {
                       float: left;
                      padding-right: 30px;
@@ -232,10 +256,10 @@
 <body>
        <div id="header">
               
-               <img class="logocentre" src="logolivre.png" alt="titre" width="400" height="70">
-               <a href="PageAccueil.php"><img class="logodroite" src="logodeconnexion.png" alt="retour" width="50" height="50"></a>
-               <a href="ACHETEURpannier.php"><img class="logodroite" src="panier.png" alt="titre" width="50" height="50"></a>
-               <div id="categoriegauche">    
+               <img class="logocentre" src="logomeilleureoffre.png" alt="titre" width="500" height="100">
+               <a href="PageAccueil.php"><img class="logodroite" src="logodeconnexion1.png" alt="retour" width="70" height="70"></a>
+               <a href="ACHETEURpannier.php"><img class="logodroite" src="panier.png" alt="titre" width="70" height="70"></a>
+               <div id="categoriegauche">  
 <?php
        $mail=$_SESSION['a'];
        $mysqli = new mysqli('localhost', 'root', '', 'eceamazon');
@@ -264,10 +288,9 @@
        <ul id="menuderoulant">
        <li><a href="#">CATEGORIES</a>
               <ul>
-                     <li><a href="ACHETEURPageLivre.php">Livres</a></li>
-                     <li><a href="ACHETEURpagemusique.php">Musique</a></li>
-                     <li><a href="ACHETEURpagevetement.php">Vêtements</a></li>
-                     <li><a href="ACHETEURpagesport.php">Sports et Loisir</a></li>
+                     <li><a href="ACHETEURPageferaille.php">Ferraille ou Trésor</a></li>
+                     <li><a href="ACHETEURPagemusee.php">Bon pour le Musée</a></li>
+                     <li><a href="ACHETEURPagevip.php">Accessoire VIP</a></li>
               </ul>
        </li>
        <li><a href="#">PROMOTIONS</a>
@@ -276,6 +299,15 @@
                      <li><a href="ACHETEURpagesaintvalentin.php">Saint Valentin</a></li>
                      <li><a href="ACHETEURpagenoel.php">Noël</a></li>
                      <li><a href="ACHETEURpageperemere.php">Fête des pères/mères</a></li>
+              </ul>
+
+       </li>
+        <li>
+       <a href="#">Achat</a>
+              <ul>
+                     <li><a href="Encheres.php">Enchères</a></li>
+                     <li><a href="Achetez.php">Achetez-le maintenant</a></li>
+                     <li><a href="MOffre.php">Meilleure offre</a></li>
               </ul>
 
        </li>
@@ -305,7 +337,7 @@
        <?php
               $mysqli = new mysqli('localhost', 'root', '', 'eceamazon');
               $mysqli->set_charset("utf8");
-              $requete = 'SELECT * FROM Article WHERE Type LIKE "livre%" ';
+              $requete = 'SELECT * FROM Article WHERE Mode3 LIKE "M%" ';
               $resultat = $mysqli->query($requete);              
               while ($ligne = $resultat->fetch_assoc()) {  
 
@@ -319,6 +351,7 @@
                             
                             <tr>
                                    <td><h2><?php echo $ligne['Titre']?></h2><br></td>
+                                   <td><u>Mode de vente :</u> <?php echo $ligne['Mode1']?> <?php echo $ligne['Mode2']?> <?php echo $ligne['Mode3']?><br></td>
                                    <td><u>Description</u> :<?php echo $ligne['Description']?><br></td>
                                    <td><small>Quantité : <?php echo $ligne['Quantité']?></small><br></td>
                                    <td><b>Prix : <?php echo $ligne['Prix']?> €</b><br></td>
@@ -343,7 +376,7 @@
 
              
        <div id="footer">
-              Droit d'auteur | Copyright &copy; 2020, BR.Merwane & S.Louis-Henri
+              Droit d'auteur | Copyright &copy; 2020, BR.Merwane & S.Louis-henri
        </div>
 </body>
 </html>

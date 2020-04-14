@@ -67,7 +67,7 @@ session_start();
             }
 
              
-            header('Location: ACHETEURPageLivre.php');
+            header('Location: ACHETEURPageAccueil.php');
 
                      
 
