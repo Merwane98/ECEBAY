@@ -245,7 +245,7 @@ session_start();
 <body>
        <div id="header">
               <a href="PageAccueil.php"><img class="logogauche" src="logodeconnexion.png" alt="logosite" width="50" height="50"></a>
-               <img class="logocentre" src="titresite.png" alt="titre" width="400" height="70">
+               <img class="logocentre" src="titresite1.png" alt="titre" width="400" height="100">
                <?php
        $mail=$_SESSION['a'];
        $mysqli = new mysqli('localhost', 'root', '', 'eceamazon');
