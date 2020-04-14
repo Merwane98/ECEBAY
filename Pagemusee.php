@@ -320,6 +320,7 @@
                      
                             <tr>
                                    <td><h2><?php echo $ligne['Titre']?></h2><br></td>
+                                   <td><u>Mode de vente :</u> <?php echo $ligne['Mode1']?> <?php echo $ligne['Mode2']?> <?php echo $ligne['Mode3']?><br></td>
                                    <td><u>Description</u> :<?php echo $ligne['Description']?><br></td>
                                    <td><small>Quantité : <?php echo $ligne['Quantité']?></small><br></td>
                                    <td><b>Prix : <?php echo $ligne['Prix']?> €</b><br></td>
