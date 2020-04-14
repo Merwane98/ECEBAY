@@ -335,7 +335,7 @@
        <?php
               $mysqli = new mysqli('localhost', 'root', '', 'eceamazon');
               $mysqli->set_charset("utf8");
-              $requete = 'SELECT * FROM Article WHERE Type LIKE "livre%" ';
+              $requete = 'SELECT * FROM Article WHERE Type LIKE "Féraille%" ';
               $resultat = $mysqli->query($requete);              
               while ($ligne = $resultat->fetch_assoc()) {  
 
