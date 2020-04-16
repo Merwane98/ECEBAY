@@ -282,16 +282,16 @@
 <div id="bande">
        </div>
 <div class="float">
-<center><embed src="http://www.pageplugins.com/generators/ladybug_note/ladybugnote.swf" FlashVars="t=Bonjour à toi,&m=Nous te souhaitons BIENVENUE sur         ECEBAY !&f=BR.MERWANE  S.Louis-henri &px=41.45&py=53.1&n=2&dom" quality="high" wmode="transparent" width="380" height="260" name="Lady Bug Note" align="middle" allowScriptAccess="samedomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /></embed><br><font size="2"></font></center>
+<center><embed src="http://www.pageplugins.com/generators/ladybug_note/ladybugnote.swf" FlashVars="t=Bonjour à toi,&m=Nous te souhaitons BIENVENUE sur         ECEBAY !&f=BR.Merwane & S.Louis-Henri &px=41.45&py=53.1&n=2&dom" quality="high" wmode="transparent" width="380" height="260" name="Lady Bug Note" align="middle" allowScriptAccess="samedomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /></embed><br><font size="2"></font></center>
 </div>
 <div class="float">
 <div id="bandeacceuil">
 
        <h1>CATEGORIES</h1>
-      <a href="PageLivre.php"><img class="logocentre" src="livre.png" alt="logosite" width="150" height="150"></a>
-       <a href="pagemusique.php"><img class="logocentre" src="musique.png" alt="logosite" width="150" height="150"></a>
-       <a href="pagesport.php"><img class="logocentre" src="sport.png" alt="logosite" width="150" height="150"></a>
-       <a href="pagevetement.php"><img class="logocentre" src="vetement.png" alt="logosite" width="150" height="150"></a>
+      <a href="PageLivre.php"><img class="logocentre" src="tresor.png" alt="logosite" width="150" height="150"></a>
+       <a href="pagemusique.php"><img class="logocentre" src="musee.png" alt="logosite" width="150" height="150"></a>
+       <a href="pagesport.php"><img class="logocentre" src="vip.png" alt="logosite" width="150" height="150"></a>
+
        </div>
        </div>
 <div id="bandemeteo">
