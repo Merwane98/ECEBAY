@@ -288,9 +288,9 @@
 <div id="bandeacceuil">
 
        <h1>CATEGORIES</h1>
-      <a href="PageLivre.php"><img class="logocentre" src="tresor.png" alt="logosite" width="150" height="150"></a>
-       <a href="pagemusique.php"><img class="logocentre" src="musee.png" alt="logosite" width="150" height="150"></a>
-       <a href="pagesport.php"><img class="logocentre" src="vip.png" alt="logosite" width="150" height="150"></a>
+      <a href="Pageferaille.php"><img class="logocentre" src="tresor.png" alt="logosite" width="150" height="150"></a>
+       <a href="Pagemusee.php"><img class="logocentre" src="musee.png" alt="logosite" width="150" height="150"></a>
+       <a href="Pagevip.php"><img class="logocentre" src="vip.png" alt="logosite" width="150" height="150"></a>
 
        </div>
        </div>
