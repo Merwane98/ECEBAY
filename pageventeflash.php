@@ -230,7 +230,7 @@
 </head>
 <body>
        <div id="header">
-              <a href="formulaireadmin.php"><img class="logogauche" src="logoadmin.png" alt="logosite" width="50" height="50"></a>
+              <a href="formulaireadmin.php"><img class="logogauche" src="logoadmin1.png" alt="logosite" width="50" height="50"></a>
                <img class="logocentre" src="logopromotion.png" alt="titre" width="500" height="100">
                <a href="PageAccueil.php"><img class="logodroite" src="retour.png" alt="retour" width="50" height="50"></a>
        </div>
