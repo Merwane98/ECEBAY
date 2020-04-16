@@ -38,25 +38,25 @@
               }
               /* background des liens menus */
               #menuderoulant li:first-child{
-              background-color: #F9980C;
+              background-color: red;
               }
               #menuderoulant li:nth-child(2){
-              background-color: #F9980C;
+              background-color: blue;
               }
               /* background des liens sous menus */
               #menuderoulant li:first-child li{
-              background:#F9980C;
+              background:red;
               }
               #menuderoulant li:nth-child(2) li{
-              background:#F9980C;
+              background:blue;
               }
               
               /* background des liens menus et sous menus au survol */
               #menuderoulant li:first-child:hover, #menuderoulant li:first-child li:hover{
-              background:#F9980C;
+              background:red;
               }
               #menuderoulant li:nth-child(2):hover, #menuderoulant li:nth-child(2) li:hover{
-              background:#F9980C;
+              background:blue;
               }
               
               /* les a href */
@@ -166,7 +166,7 @@
                      } 
               #bande{
                      line-height: 30px;
-                     background-color: #F9980C;
+                     background-color: black;
                      height: 10px;
                      width: auto;
                      float: center;
@@ -180,8 +180,8 @@
                      height: 550px;
                      } 
               #footer{
-                     background-color: grey;
-                     color: black;
+                     background-color: black;
+                     color: white;
                      clear: both;
                      text-align: center;
                      padding: 10px;
@@ -218,7 +218,7 @@
 <body>
        <div id="header">
               <a href="PageAccueil.php"><img class="logogauche" src="logodeconnexion1.png" alt="logosite" width="70" height="70"></a>
-               <img class="logocentre" src="logoadministrateur.png" alt="titre" width="600" height="70">
+               <img class="logocentre" src="titresite1.png" alt="titre" width="400" height="100">
        </div>
        
 
