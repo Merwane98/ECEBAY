@@ -217,7 +217,7 @@
 </head>
 <body>
        <div id="header">
-              <a href="PageAccueil.php"><img class="logogauche" src="logodeconnexion.png" alt="logosite" width="50" height="50"></a>
+              <a href="PageAccueil.php"><img class="logogauche" src="logodeconnexion1.png" alt="logosite" width="50" height="50"></a>
                <img class="logocentre" src="logoadministrateur.png" alt="titre" width="600" height="70">
        </div>
        
