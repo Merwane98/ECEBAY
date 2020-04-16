@@ -197,8 +197,8 @@
                      height: 550px;
                      } 
               #footer{
-                     background-color: grey;
-                     color: black;
+                     background-color: black;
+                     color: white;
                      clear: both;
                      text-align: center;
                      padding: 10px;
@@ -254,7 +254,7 @@
 <body>
        <div id="header">
               <a href="PageAccueil.php"><img class="logogauche" src="logodeconnexion1.png" alt="logosite" width="70" height="70"></a>
-               <img class="logocentre" src="logoadministrateur1.png" alt="titre" width="600" height="70">
+               <img class="logocentre" src="titresite1.png" alt="titre" width="400" height="100">
        </div>
        
 
