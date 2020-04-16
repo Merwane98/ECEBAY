@@ -253,7 +253,7 @@
 <body>
        <div id="header">
               <a href="PageAccueil.php"><img class="logogauche" src="logodeconnexion1.png" alt="logosite" width="70" height="70"></a>
-               <img class="logocentre" src="titresite1.png" alt="titre" width="600" height="70">
+               <img class="logocentre" src="titresite1.png" alt="titre" width="400" height="100">
        </div>
        
 
