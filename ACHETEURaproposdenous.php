@@ -311,8 +311,7 @@ session_start();
 
 <div id="bandeacceuil">
        <h1>FONDATEUR D'ECE EBAY</h1>
-       <img class="logocentre" src="titresite1.jpg" alt="logosite" width="160" height="200">
-       <img class="logocentre" src="titresite1.jpg" alt="logosite" width="190" height="200">
+       <img class="logocentre" src="lh.jpg" alt="logosite" width="190" height="200">
        <img class="logocentre" src="merwane.jpg" alt="logosite" width="150" height="200">
        
 </div>
