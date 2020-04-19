@@ -332,9 +332,9 @@
 <div id="bandeacceuil">
 
        <h1>CATEGORIES</h1>
-      <a href="ACHETEURPageferaille"><img class="logocentre" src="livre.png" alt="logosite" width="150" height="150"></a>
-       <a href="ACHETEURPagemusee.php"><img class="logocentre" src="musique.png" alt="logosite" width="150" height="150"></a>
-       <a href="ACHETEURPagevip.php"><img class="logocentre" src="sport.png" alt="logosite" width="150" height="150"></a>
+      <a href="ACHETEURPageferaille"><img class="logocentre" src="musee.jpg" alt="logosite" width="150" height="150"></a>
+       <a href="ACHETEURPagemusee.php"><img class="logocentre" src="tresor.jpg" alt="logosite" width="150" height="150"></a>
+       <a href="ACHETEURPagevip.php"><img class="logocentre" src="vip.jpg" alt="logosite" width="150" height="150"></a>
        </div>
        </div>
 <div class="float">
