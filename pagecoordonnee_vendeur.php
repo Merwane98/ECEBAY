@@ -174,7 +174,7 @@ session_start();
                      } 
               #bande{
                      line-height: 30px;
-                     background-color: #F9980C;
+                     background-color: black;
                      height: 2px;
                      width: auto;
                      float: center;
@@ -197,7 +197,7 @@ session_start();
                      height: 300px;
                      } 
               #footer{
-                     background-color: #F9980C;
+                     background-color: black;
                      color: white;
                      clear: both;
                      text-align: center;
