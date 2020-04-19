@@ -41,25 +41,25 @@ session_start();
               }
               /* background des liens menus */
               #menuderoulant li:first-child{
-              background-color: #F9980C;
+              background-color: red;
               }
               #menuderoulant li:nth-child(2){
-              background-color: #F9980C;
+              background-color: blue;
               }
               /* background des liens sous menus */
               #menuderoulant li:first-child li{
-              background:#F9980C;
+              background:red;
               }
               #menuderoulant li:nth-child(2) li{
-              background:#F9980C;
+              background:blue;
               }
               
               /* background des liens menus et sous menus au survol */
               #menuderoulant li:first-child:hover, #menuderoulant li:first-child li:hover{
-              background:#F9980C;
+              background:red;
               }
               #menuderoulant li:nth-child(2):hover, #menuderoulant li:nth-child(2) li:hover{
-              background:#F9980C;
+              background:blue;
               }
               
               /* les a href */
@@ -114,25 +114,25 @@ session_start();
               }
               /* background des liens menus */
               #menuderoulantdroit li:first-child{
-              background-color: #F9980C;
+              background-color: #ffcc33;
               }
               #menuderoulantdroit li:nth-child(2){
-              background-color: #F9980C;
+              background-color: green;
               }
               /* background des liens sous menus */
               #menuderoulantdroit li:first-child li{
-              background:#F9980C;
+              background:#ffcc33;
               }
               #menuderoulantdroit li:nth-child(2) li{
-              background:#F9980C;
+              background:green;
               }
               
               /* background des liens menus et sous menus au survol */
               #menuderoulantdroit li:first-child:hover, #menuderoulantdroit li:first-child li:hover{
-              background:#F9980C;
+              background:#ffcc33;
               }
               #menuderoulantdroit li:nth-child(2):hover, #menuderoulantdroit li:nth-child(2) li:hover{
-              background:#F9980C;
+              background:green;
               }
               
               /* les a href */
@@ -251,7 +251,7 @@ session_start();
 
        <div id="header">
                <img class="logocentre" src="titresite.png" alt="titre" width="400" height="70">
-               <a href="PageAccueil.php"><img class="logogauche" src="logodeconnexion.png" alt="logosite" width="50" height="50"></a>
+               <a href="PageAccueil.php"><img class="logogauche" src="logodeconnexion1.png" alt="logosite" width="50" height="50"></a>
  <?php
        $mail=$_SESSION['a'];
        $mysqli = new mysqli('localhost', 'root', '', 'ecebay');
