@@ -197,8 +197,8 @@
                      height: 550px;
                      } 
               #footer{
-                     background-color: grey;
-                     color: black;
+                     background-color: black;
+                     color: white;
                      clear: both;
                      text-align: center;
                      padding: 10px;
