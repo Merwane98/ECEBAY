@@ -277,9 +277,8 @@
       <h3> Le site ECE EBAY a été mis en place par 2 élèves de l'Ecole Centrale d'Électronique de Paris. Il s'agit d'un site d'E-commerce qui va révolutionner le monde du e-commerce. Avec son interface aérée, qui offre un aspect premium, les ingénieures ont fait tout pour que les utilisateurs se sentent le mieux possibles. Avec ECE EBAY, tout devient possible ! </h3>
 
  <div id="bandeacceuil">
-       <h1>FONDATEUR D' ECE AMAZON</h1>
-      <img class="logocentre" src="vishnu.jpg" alt="logosite" width="160" height="200">
-      <img class="logocentre" src="kishor.jpg" alt="logosite" width="190" height="200">
+       <h1>FONDATEUR D' ECEBAY</h1>
+      <img class="logocentre" src="lh.jpg" alt="logosite" width="190" height="200">
        <img class="logocentre" src="merwane.jpg" alt="logosite" width="150" height="200">
        
        </div>
