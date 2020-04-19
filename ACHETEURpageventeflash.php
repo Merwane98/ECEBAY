@@ -194,7 +194,7 @@ session_start();
                      height: 100px;
                      } 
               #footer{
-                     background-color: grey;
+                     background-color: black;
                      color: white;
                      clear: both;
                      text-align: center;
