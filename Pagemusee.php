@@ -300,7 +300,7 @@
 
 
 <?php
-              $mysqli = new mysqli('localhost', 'root', '', 'eceamazon');
+              $mysqli = new mysqli('localhost', 'root', '', 'ecebay');
               $mysqli->set_charset("utf8");
               $requete = 'SELECT * FROM Article WHERE Type LIKE "Bon%" ';
               $resultat = $mysqli->query($requete);
@@ -325,6 +325,7 @@
                                    <td><small>Quantité : <?php echo $ligne['Quantité']?></small><br></td>
                                    <td><b>Prix : <?php echo $ligne['Prix']?> €</b><br></td>
                                    <td><u>Vendeur</u> : <?php echo $ligne['Vendeur']?><br></td>
+                                   <td><u>Acheteur</u> : <?php echo $ligne['Acheteur']?><br></td>
                                    
                                    
                                    <td> <div id="bandegrise"><br></div><br></td>

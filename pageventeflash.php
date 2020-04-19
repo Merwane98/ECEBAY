@@ -2,7 +2,7 @@
 <html>
 <head>
        <meta charset="utf-8">
-       <title>ECE PROMOTIONS</title>
+       <title>ECEBAY PROMOTIONS</title>
        <style type="text/css">
                             #menuderoulant, #menuderoulant ul{
               padding:0px;
@@ -232,7 +232,7 @@
        <div id="header">
               <a href="formulaireadmin.php"><img class="logogauche" src="logoadmin1.png" alt="logosite" width="70" height="70"></a>
                <img class="logocentre" src="logopromotion.png" alt="titre" width="500" height="100">
-               <a href="PageAccueil.php"><img class="logodroite" src="retour.png" alt="retour" width="50" height="50"></a>
+               <a href="PageAccueil.php"><img class="logodroite" src="retour.png" alt="retour" width="70" height="70"></a>
        </div>
        
 
@@ -282,7 +282,7 @@
 
 </div>
 <?php
-              $mysqli = new mysqli('localhost', 'root', '', 'eceamazon');
+              $mysqli = new mysqli('localhost', 'root', '', 'ecebay');
               $mysqli->set_charset("utf8");
               $requete = 'SELECT * FROM Article WHERE Type LIKE "%VF" ';
               $resultat = $mysqli->query($requete);
@@ -300,10 +300,12 @@
     
                             <tr>
                                    <td><h2><?php echo $ligne['Titre']?></h2><br></td>
-                                   <td><u>Description</u> :<?php echo $ligne['Description']?><br></td>
-                                   <td><small>Quantité : <?php echo $ligne['Quantité']?></small><br></td>
-                                   <td><b>Prix : <?php echo $ligne['Prix']?> €</b><br></td>
-                                   <td><u>Vendeur</u> : <?php echo $ligne['Vendeur']?><br></td>
+                     <td><u>Mode de vente :</u> <?php echo $ligne['Mode1']?> <?php echo $ligne['Mode2']?> <?php echo $ligne['Mode3']?><br></td>
+                     <td><u>Description :</u> <?php echo $ligne['Description']?><br></td>
+                     <td><small>Quantité : <?php echo $ligne['Quantité']?></small><br></td>
+                     <td><b>Prix : <?php echo $ligne['Prix']?> €</b><br></td>
+                     <td><u>Vendeur</u> : <?php echo $ligne['Vendeur']?><br></td>
+                     <td><u>Acheteur</u> : <?php echo $ligne['Acheteur']?><br></td>
                                    
                                    <td> <div id="bandegrise"><br></div><br></td>
                             
