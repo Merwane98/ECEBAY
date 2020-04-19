@@ -281,7 +281,7 @@
        </div>
 <h2>Voici la liste de tous les vendeurs, vous pouvez les supprimer en cliquant vous pouvez les supprimer en cliquant sur "Supprimer" près de chaque nom. </h2>
 <?php
-              $mysqli = new mysqli('localhost', 'root', '', 'eceamazon');
+              $mysqli = new mysqli('localhost', 'root', '', 'ecebay');
               $mysqli->set_charset("utf8");
               $requete = 'SELECT * FROM Vendeur';
               $resultat = $mysqli->query($requete);

@@ -282,7 +282,7 @@
 <h2>Voici la liste de toutes les annonces, vous pouvez les supprimer en cliquant sur "Supprimer" près de chaque annonce. </h2>
 
 <?php
-              $mysqli = new mysqli('localhost', 'root', '', 'eceamazon');
+              $mysqli = new mysqli('localhost', 'root', '', 'ecebay');
               $mysqli->set_charset("utf8");
               $requete = 'SELECT * FROM Article ';
               $resultat = $mysqli->query($requete);

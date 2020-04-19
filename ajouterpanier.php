@@ -3,7 +3,7 @@ session_start();
 ?>
 <?php
      $mail=$_SESSION['a'];
-     $mysqli = new mysqli('localhost', 'root', '', 'eceamazon');
+     $mysqli = new mysqli('localhost', 'root', '', 'ecebay');
      $mysqli->set_charset("utf8");
      //Tu recuperes l'id du contact
      $id = $_GET["id"];
@@ -25,7 +25,7 @@ session_start();
                 $quantite = $ligne['Quantité'];
                 $quantite2 = $ligne['Quantité'] - 1;
                 $quantite3 = $ligne['Quantité'] + 1;
-
+                $prixmax2 = $ligne['PrixMax2'];
               	$sql2 = "SELECT * FROM panier";
                     if ($id != "") {
                         //on cherche le livre avec les paramètres titre et auteur
@@ -35,7 +35,7 @@ session_start();
                     if (mysqli_num_rows($result) == 0) {
                         //le livre recherché n'existe pas
                         echo "Erreur de connexion";
-                        $sql = "INSERT INTO panier VALUES ($id, '$titre','$Mode1','$Mode2','$Mode3', '$image', '$description', 1, $prix, '$vendeur', '$mail')";
+                        $sql = "INSERT INTO panier VALUES ($id, '$titre','$Mode1','$Mode2','$Mode3', '$image', '$description', 1, $prix, '$vendeur', '$mail','$prixmax2','Aucune')";
                         mysqli_query ($mysqli, $sql) or die ('Erreur SQL !'.$sql.'<br />'.mysqli_error($mysqli));
                         
 

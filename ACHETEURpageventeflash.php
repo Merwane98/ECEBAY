@@ -238,7 +238,7 @@ session_start();
                <div id="categoriegauche">    
 <?php
        $mail=$_SESSION['a'];
-       $mysqli = new mysqli('localhost', 'root', '', 'eceamazon');
+       $mysqli = new mysqli('localhost', 'root', '', 'ecebay');
        $mysqli->set_charset("utf8");
        $requete = "SELECT * FROM Acheteur WHERE AdresseMail =  '$mail' ";
        $resultat = $mysqli->query($requete);              
@@ -311,7 +311,7 @@ session_start();
 
 </div>
 <?php
-              $mysqli = new mysqli('localhost', 'root', '', 'eceamazon');
+              $mysqli = new mysqli('localhost', 'root', '', 'ecebay');
               $mysqli->set_charset("utf8");
               $requete = 'SELECT * FROM Article WHERE Type="VF" ';
               $resultat = $mysqli->query($requete);
@@ -329,11 +329,13 @@ session_start();
     
                             <tr>
                                    <td><h2><?php echo $ligne['Titre']?></h2><br></td>
+                                   <td><b>ID annonce : <?php echo $ligne['ID']?></b><br></td>
                                    <td><u>Mode de vente :</u> <?php echo $ligne['Mode1']?> <?php echo $ligne['Mode2']?> <?php echo $ligne['Mode3']?><br></td>
                                    <td><u>Description</u> :<?php echo $ligne['Description']?><br></td>
                                    <td><small>Quantité : <?php echo $ligne['Quantité']?></small><br></td>
                                    <td><b>Prix : <?php echo $ligne['Prix']?> €</b><br></td>
                                    <td><u>Vendeur</u> : <?php echo $ligne['Vendeur']?><br></td>
+                                   <td><u>Acheteur</u> : <?php echo $ligne['Acheteur']?><br></td>
                                    
                                    <td><a href="ajouterpanier.php?id=<?php echo $ligne['ID']?>">Ajouter</a></td>
                                    

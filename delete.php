@@ -1,6 +1,6 @@
 <?php
    
-     $mysqli = new mysqli('localhost', 'root', '', 'eceamazon');
+     $mysqli = new mysqli('localhost', 'root', '', 'ecebay');
      $mysqli->set_charset("utf8");
      //Tu recuperes l'id du contact
      $id = $_GET["id"];

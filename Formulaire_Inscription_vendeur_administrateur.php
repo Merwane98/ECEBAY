@@ -31,12 +31,12 @@
     if($image == "") {$erreur .= "<p><b>Le champ Image est vide. Merci de le remplir.</b><br></p>";}
     if($mdp2 != $mdp1) {$erreur .= "<p><b>Mot de passe de vérification différent du précedent. Merci de le modifier.</b><br></p>";}
     if($image2 == "" ) {$erreur .= "<p><b>Veuillez choisir une image pour votre fond d'écran.</b><br></p>";}
-    if ($erreur == "") {echo '<td><img src="logoadmin.png" width="50" height="50">';echo '<td><img src="titresite.png" width="400" height="70">'; echo "<p><b>Bienvenue ".$prenom.", votre compte vendeur vient d'être créé !<br>En vous souhaitant de bonnes ventes !<br>Veuillez-vous reconnecter.</b></p>";echo '<td><a href="pageadmin.php"><img src="retour.png" width="150" height="150" border="10"> </a></td>';}
+    if ($erreur == "") {echo '<td><img src="titresite1.png" width="200" height="70">'; echo "<p><b>Bienvenue ".$prenom.", votre compte vendeur vient d'être créé !<br>En vous souhaitant de bonnes ventes !<br>Veuillez-vous reconnecter.</b></p>";echo '<td><a href="pageadmin.php"><img src="retour.png" width="150" height="150" border="10"> </a></td>';}
  else {
  echo "Erreur : $erreur";
  }
  // on se connecte à notre base
-    $mysqli = new mysqli('localhost', 'root', '', 'eceamazon');
+    $mysqli = new mysqli('localhost', 'root', '', 'ecebay');
      $mysqli->set_charset("utf8");
 
 // lancement de la requete
