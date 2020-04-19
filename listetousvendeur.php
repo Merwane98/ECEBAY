@@ -319,7 +319,7 @@
 
        </div>
        <div id="footer">
-              Droit d'auteur | Copyright &copy; 2020, BR.Merwane S.Louis-Henri
+              Droit d'auteur | Copyright &copy; 2020, BR.Merwane & S.Louis-Henri
        </div>
 </body>
 </html>
