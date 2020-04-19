@@ -166,7 +166,7 @@
                      } 
               #bande{
                      line-height: 30px;
-                     background-color: #F9980C;
+                     background-color: black;
                      height: 10px;
                      width: auto;
                      float: center;
@@ -180,8 +180,8 @@
                      height: 550px;
                      } 
               #footer{
-                     background-color: grey;
-                     color: black;
+                     background-color: black;
+                     color: white;
                      clear: both;
                      text-align: center;
                      padding: 10px;
@@ -217,8 +217,8 @@
 </head>
 <body>
        <div id="header">
-              <a href="PageAccueil.php"><img class="logogauche" src="logodeconnexion.png" alt="logosite" width="50" height="50"></a>
-               <img class="logocentre" src="logoadministrateur.png" alt="titre" width="600" height="70">
+              <a href="PageAccueil.php"><img class="logogauche" src="logodeconnexion1.png" alt="logosite" width="70" height="70"></a>
+               <img class="logocentre" src="logoadministrateur1.png" alt="titre" width="600" height="70">
        </div>
        
 
