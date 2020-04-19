@@ -184,7 +184,7 @@ session_start();
                      } 
               #bandeacceuil{
                      background-color: white;
-                     color: #F9980C;
+                     color: black;
                      text-align: center;
                      width: auto;
                      float: center;
@@ -192,7 +192,7 @@ session_start();
                      height: 300px;
                      } 
               #footer{
-                     background-color: #F9980C;
+                     background-color: black;
                      color: white;
                      clear: both;
                      text-align: center;
